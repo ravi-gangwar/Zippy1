@@ -1,0 +1,95 @@
+.navBar{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    /* position: absolute; */
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellowgreen; */
+    /* margin: 0px 2px 0px 2px; */
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 2px;
+    /* background-color: black; */
+}
+.logo span{
+    background-color:rgb(106, 143, 37);
+    padding: 5px 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.logo span:hover{
+    cursor: pointer;
+}
+.logo h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.navLinks{
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+    list-style:none;    
+}
+.navLinks li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    width: fit-content;
+    height: fit-content;
+    justify-content: space-between;
+    gap: 10px;
+}
+.login-btn{
+    padding: 10px;
+    background-color: none;
+    font-size: 1.2rem;
+    width: fit-content;
+    border: none;
+
+}
+
+
+.login-btn:hover{
+    cursor: pointer;
+}
+.cart-div{
+    /* background-color: red; */
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+}
+.cart{
+    font-size: 30px;
+}
+.count{
+    position: absolute;
+    top: -5px; /**/
+    right: -5px; /**/
+    background-color: deeppink;
+    border-radius: 50%;
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px; 
+    font-weight: bold;
+
+}
+.cart:hover{
+    cursor: pointer;
+}
+.count:hover{
+    cursor: pointer;
+}

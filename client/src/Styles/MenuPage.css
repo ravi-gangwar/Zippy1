@@ -1,0 +1,34 @@
+.menuPage{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: yellow; */
+}
+.menuContent{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menuContent h1{
+    font-size: 40px;
+}
+.menuList ul{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    gap: 40px;
+}
+.menuList ul li{
+    font-size: 20px;
+}
+.menuList ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.item-listing{
+    width:100vw;
+    height: 100%;
+    display: flex;
+    /* background-color: blue; */
+}

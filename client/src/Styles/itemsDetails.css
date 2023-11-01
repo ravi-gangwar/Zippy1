@@ -1,0 +1,25 @@
+.main-div{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: yellow; */
+    display: flex;
+}
+.main-div .left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+.main-div .right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-div .left img {
+    width: 50%;
+    height: 50%;
+}

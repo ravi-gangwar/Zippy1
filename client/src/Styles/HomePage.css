@@ -1,0 +1,32 @@
+.homePage{
+    height: 90vh;
+    width: 100vw;
+    /* background-color: yellowgreen; */
+}
+.content{
+    height: fit-content;
+    width: 90%;
+}
+.content h1{
+    height: 100%;
+    width: 100%;
+    font-size: 22rem;
+
+}
+.content p{
+    font-size: 20px;
+    line-height:205%;
+    margin: 10px 0 10px 0;
+}
+.content button{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
+}
+.content .icon {
+    margin: 3px;
+    font-size: 50px;
+} 
